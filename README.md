@@ -22,7 +22,16 @@
 - Admin dapat menambahkan transaksi baru (masuk / keluar stok)
 - Setelah transaksi ditambahkan, riwayat akan diperbarui
 
+## API Endpoints
 
+| Method | Endpoint             | Description                        | Auth Required |
+|--------|----------------------|------------------------------------|---------------|
+| POST | /register | Register a new user | ❌ |
+| POST | /login | Login and receive JWT token | ❌ |
+| GET | /products | Get all products | ✅  |
+| POST | /products | Add a new product | ✅  |
+| GET | /transactions | Get all transactions | ✅  |
+| POST | /transactions | Add a new transaction | ✅  |
 
 ## Flowchart
 
