@@ -1,0 +1,7 @@
+CREATE TABLE kategori_produk (
+    id SERIAL PRIMARY KEY,
+    nama VARCHAR(100) NOT NULL,
+    deskripsi TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
