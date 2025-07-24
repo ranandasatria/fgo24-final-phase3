@@ -14,7 +14,7 @@
 
 #### Produk
 - User dapat melihat daftar semua produk
-- User denan role admin dapat menambahkan produk baru
+- User dengan role admin dapat menambahkan produk baru
 - Setelah produk ditambahkan, daftar produk akan diperbarui
 
 #### Transaksi
